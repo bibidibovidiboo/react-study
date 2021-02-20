@@ -22,7 +22,7 @@ class App extends Component{
         const script = document.createElement("script");
         script.async = true;
         script.src =
-            "https://dapi.kakao.com/v2/maps/sdk.js?appkey=5f40375643f0a41df8b2401ad0739717&libraries=services";
+            "https://dapi.kakao.com/v2/maps/sdk.js?appkey=키넘버=services";
         document.head.appendChild(script);
 
         script.onload = () => {
