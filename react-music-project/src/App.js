@@ -9,7 +9,8 @@ import $ from 'jquery'
               1. 여는 태그 <a>
               2. 닫는 태그 </a>
               3. 단독 태그 <img />
-           => 최상위 태그를 반드시 사용
+
+              => 최상위 태그를 반드시 사용해서 감싸야함
 
               <div></div>
               <div></div>  (X)
@@ -18,6 +19,7 @@ import $ from 'jquery'
                 <div></div>
                 <div></div>
               </div>
+
  */
 // <App music={music}/>
 class App extends Component{
